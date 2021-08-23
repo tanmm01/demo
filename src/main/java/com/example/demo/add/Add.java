@@ -10,6 +10,8 @@ public class Add {
             return 10;
         }else if(a == b){
             return 8;
+        }else if(a < b){
+            return 7;
         }else{
             return 9;
         }
