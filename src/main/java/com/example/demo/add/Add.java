@@ -8,6 +8,8 @@ public class Add {
     public int add(int a, int b){
         if(a > b){
             return 10;
+        }else if(a == b){
+            return 8;
         }else{
             return 9;
         }
